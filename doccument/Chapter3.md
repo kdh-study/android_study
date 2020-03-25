@@ -9,7 +9,7 @@
 ### 3.2.1.1 구조
 - 소프트웨어 모델 : `DOM(Doccument Object Model)`
 - 패턴(Pattern): `Gof 다자인패턴의 Composite 패턴`
-- 
+
 ### 3.2.1.2 예시
 
 - 계층 구조 트리(tree)의 맨위에 위치한 루트(root)뷰와 그 밑의 가지에 위치한 자식뷰
@@ -28,4 +28,23 @@
                    
 ### 3.2.2 뷰 계층구조 구현
 
--
+- 레이아웃 XML로 계층구조 구현
+    
+    - 태크의 상하 관계를 이용
+    - 서브 객체 뷰는 상위 객체 뷰에 포함
+
+    ```xml
+    <LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 2"/>
+    </LinearLayout>
+    ```
+- 자바로 계층구조 구현
+    
+    - 
