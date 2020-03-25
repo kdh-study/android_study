@@ -30,10 +30,7 @@
 
 - 레이아웃 XML로 계층구조 구현
     
-    - 태크의 상하 관계를 이용
-    - 서브 객체 뷰는 상위 객체 뷰에 포함
-
-    ```xml
+    ``` xml
     <LinearLayout>
         <Button
             android:layout_width="wrap_content"
@@ -44,7 +41,30 @@
             android:layout_height="wrap_content"
             android:text="Button 2"/>
     </LinearLayout>
+    
     ```
+
+    - 태크의 상하 관계를 이용
+    - 서브 객체 뷰는 상위 객체 뷰에 포함
+
+
+  
+        
 - 자바로 계층구조 구현
     
-    - 
+    - `addView` 함수 이용
+        ``` java
+        public void addView(View child)
+        ```
+    - 버튼 포함 레이아웃
+        ``` java
+        LinearLayout linearLayout = new LinearLayout(this);
+
+        Button bt = new Button(this);
+        bt.setText("Button 1");
+        linearLayout.addView(bt);
+
+        Button bt1 = new Button(this);
+        bt1.setText("Button 2");
+        linearLayout.addView(bt1);
+        ```
