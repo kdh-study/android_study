@@ -15,9 +15,9 @@
 - 계층 구조 트리(tree)의 맨위에 위치한 루트(root)뷰와 그 밑의 가지에 위치한 자식뷰
 
     > View
-        >> ViewGroup
-        >>
-        >> TextView
+    >> ViewGroup
+    >>
+    >> TextView
 
 - View : 최상위 클래스 
 - ViewGroup : 
