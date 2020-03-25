@@ -68,3 +68,63 @@
         bt1.setText("Button 2");
         linearLayout.addView(bt1);
         ```
+
+
+## 3.3. 기초 뷰 활용
+---
+
+### 3.3.1 TextView 
+
+  - text : 문자열 명시 
+  - typeface : 폰트 명시
+  - normal, sans, serif, monospace 
+  - textStyle : 문자열 효과 
+  - normal, bold, italic
+  - textColor : 문자열 색상
+  - textSize : 폰트의 크기
+  - autoLink : 문자열에 url 포함되면 자동 링크
+  - maxLine : 특정줄 만큼만 출력 
+  - ellipsize : end, start, middle 옵션중 안보이는 부분 ... 처리
+### 3.3.2 ImageView 
+
+- src : 출력 이미지 지정
+- maxWith, maxHeight : 최대 크기 지정
+- adjustViewBounds : 이미지 크기 변경시 가로세로 비율을 유지(true,false) 지정 속성
+- tint : 다른 색상을 입힘
+
+### 3.3.3 EditText
+
+- lines : 처음부터 특정줄만큼 보이게 사용
+- maxLines : 최대 줄 지정
+- inputType : 
+    
+    - none : 지정없음
+    - text : none 동일, 줄바꿈만 불가능
+    - textCapCharacter : 대문자 모드
+    - textCapWords : 단어 첫 글자 입력시 대문자
+    - textCapSentences : 문자 첫 글자 입력시 대문자 
+    - textMultiLine : 여러줄 입력
+    - textNoSuggestions : 단어 입력시 추천 단어 비활성화
+    - textUri : url 입력
+    - textEmailAddress : 이메일 입력
+    - textPassword : 비번 입력 * 표시
+    - textVisiblePassword : 비번입력 표시
+    - number : 숫자 입력
+    - numberSigned : - 입력 가능
+    - numberDecimal : 소수점 입력 가능
+    - numberPassword : 숫자만 입력
+    - phone : 전화번호 입력
+    - datetime : 날짜와 시간
+    - date : 날짜 입력
+    - time : 시간 입력  
+- gravity : top, left, center, right 글의 위치 지정
+
+### 3.3.4 Button
+
+- 클릭 이벤트 처리 
+- CheckBox, RadioButton, ToggleButton
+  
+### 3.3.5 Checkbox, RadioButton
+
+ 
+
