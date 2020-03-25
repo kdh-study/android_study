@@ -126,5 +126,14 @@
   
 ### 3.3.5 Checkbox, RadioButton
 
- 
+ - Checkbox : 두가지 상태를 제어하는 뷰
+    
+    - isChecked : 체크 상태 반환
+    - setChecked : 채크 상태 변경
+    - toogle : 상태가 반대로 변경
+- RadioButton : 여러 개중 하나만 선택가능
+
+    - check : 하나의 id 값으로 체크
+    - clearCheck : 체크 해제 
+    - getCheckRadioButtonId : 채크 id 확인
 
