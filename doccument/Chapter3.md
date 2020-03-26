@@ -1,5 +1,20 @@
 # 3장  사용자 인터페이스
 
+## 3.1. UI의 기본 구조
+
+- 기본 아키텍처 (architecture)는 컴포넌트(Component) 기반의 개발 
+- 런타임(runtime) 실행에 제약이 없어야 함 -> 상시 구동
+
+### 3.1.1 액티비티-뷰 구조
+
+- 엑티비티 (빈화면) 에 다양한 컴포넌트 (뷰)를 추가하는 구조 
+
+    > setContentView 함수를 이용 하여 출력 
+
+    ``` java
+        public void setContentView(View view);
+    ```
+
 ## 3.2. 뷰 아키텍처
 - 뷰 클래스 라이브러리 ex) Button, TextView, EditText, ImageView, Spinner, ListView ...등
 - 뷰 클레스의 구조
