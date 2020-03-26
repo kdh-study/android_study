@@ -9,7 +9,7 @@
 
 - 엑티비티 (빈화면) 에 다양한 컴포넌트 (뷰)를 추가하는 구조 
 
-    > setContentView 함수를 이용 하여 출력 
+    - setContentView 함수를 이용 하여 출력 
 
     ``` java
         public void setContentView(View view);
