@@ -80,6 +80,30 @@
     ``` java
     checkBox = findViewById(R.id.checkbox);
     ```
+- layout_width, layout_height 속성
+
+    - match_parent : 전체 크기
+  
+    - wrap_content : 객체의 크기 
+
+- margin, padding 속성
+  
+    - margin : 뷰와 뷰 사이 간격 지정
+    - padding : 내용과 테두리간 간격 지정
+    - 양방향시 해당 태그 명시
+    - 단방향시 
+        
+        - margin : layout_margin방향
+        - padding : padding방향
+  
+- clickable 속성
+    
+    - Botton에 명시된 속성
+    - TextView, ImageView -> 지정을 통해 사용 가능
+  
+- visibility 속성
+  
+  - 기본 값 true , 크기 없이 안보임 gone, 크기명시 안보임 invisible
 
 
 ## 3.2. 뷰 아키텍처
