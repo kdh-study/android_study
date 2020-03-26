@@ -30,9 +30,5 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(linearLayout);
 
-
-
-
-        //setContentView(R.layout.activity_main);
     }
 }

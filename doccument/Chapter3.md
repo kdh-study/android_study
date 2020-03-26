@@ -11,9 +11,76 @@
 
     - setContentView 함수를 이용 하여 출력 
 
-    ``` java
+        ``` java
         public void setContentView(View view);
+        ```
+
+### 3.1.2 UI 프르그램 작성 방법 : 자바 코드 vs 레이아웃 XML
+
+- 자바 코드로 화면 구성 : 경로 src > main > java > 패키지 
+  
+
+    ``` java
+    // MainActivity.java
+    public class MainActivity extends AppCompatActivity {
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+
+            LinearLayout linearLayout = new LinearLayout(this);
+
+            Button bt = new Button(this);
+            bt.setText("Button 1");
+            linearLayout.addView(bt);
+
+            Button bt1 = new Button(this);
+            bt1.setText("Button 2");
+            linearLayout.addView(bt1);
+            
+            setContentView(linearLayout);
+        }
+    }
     ```
+- 레이아웃 XML로 화면 구성 : 경로 res > layout
+
+    ``` xml
+    <!-- activity_main.xml -->
+    <LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button 2"/>
+    </LinearLayout>
+    
+    ```
+
+### 3.1.3 뷰 기초 속성
+
+- id 속성 
+    
+    - 아이디를 등록하면 자바코드에서 식별하여 객체에 접근가능
+    
+
+    ``` xml
+    
+    <TextView
+        android:id="@+id/fontView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    ``` 
+    - 식별시 `findViewById` 함수를 통해 가능 
+    - 등록된 아이디는 `R.java`에 명시
+
+    ``` java
+    checkBox = findViewById(R.id.checkbox);
+    ```
+
 
 ## 3.2. 뷰 아키텍처
 - 뷰 클래스 라이브러리 ex) Button, TextView, EditText, ImageView, Spinner, ListView ...등
