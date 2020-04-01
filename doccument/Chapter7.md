@@ -95,6 +95,12 @@
     
 #### 7.1.2.2 색상, 크기 리소스
 
+- vakues 폴더 하위 통칭 -> 파일명이 아닌 태크의 속성 값으로 자바에서 식별 
+  - 문자열 : strings.xml 	
+  - 색상 : colors.xml		
+  - 스타일 : styles.xml		
+  - 배열 : arrays.xml		
+  - 크기 : dimens.xml	
 
 
 #### 7.1.2.3 스타일 리소스
