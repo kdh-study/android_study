@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="long_text">
-        야 뽀로로다 노는게 제일 좋아. 친구들 모여라. 언제나 즐거워 개구쟁이 뽀로로. 눈덮힌 숲속 마을 꼬마펭귄 나가신다. 언제나 즐거워 오늘은 또 무슨일이 생길까. 뽀로로를 불러봐요. 뽀롱뽀롱 뽀로로 뽀롱뽀롱 뽀로로. 뽀롱뽀롱 뽀롱뽀롱 뽀롱뽀롱 뽀롱 뽀로로. 노는게 제일 좋아 친구들 모여라. 언제나 즐거워 뽀롱뽀롱 뽀롱뽀롱 뽀로로.
+    <string name="app_name">Part2-Mission</string>
+    <string name="title">
+        Messenger에서 SMS를 주고 받아 보세요
     </string>
+    <string name="content">
+        모든 대화를 한곳에서 관리하고 스티커와 챗 해드 기능도 사용해보세요. SMS 대화가 Messenger에 별도로 표시되며 휴대폰을 통해서만 이용할 수 있습니다. 표준문자 메시지 요금이 청구됩니다.
+    </string>
+    <string name="button">확인</string>
+    <string name="setting">설정</string>
 </resources>
